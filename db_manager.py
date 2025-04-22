@@ -11,7 +11,7 @@ class DBManager:
 
     def __init__(self):
         """
-        Устанавливает соединение с базой данных и создаёт курсор.
+        Устанавливает соединение с базой данных.
         """
         self.conn = psycopg2.connect(
             dbname=DB_NAME,
